@@ -1,0 +1,11 @@
+@use "../../styles/mixins" as m;
+
+.wrapperStyling {
+  &.flex-column {
+    @include m.flexBox(column, center, center, 1rem);
+  }
+
+  &.flex-row {
+    @include m.flexBox(row, center, center, 1rem);
+  }
+}
