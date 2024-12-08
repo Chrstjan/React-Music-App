@@ -1,0 +1,19 @@
+.iconStyling {
+  &.s-icon {
+    svg {
+      font-size: 1rem;
+    }
+  }
+
+  &.m-icon {
+    svg {
+      font-size: 2rem;
+    }
+  }
+
+  &.l-icon {
+    svg {
+      font-size: 3rem;
+    }
+  }
+}

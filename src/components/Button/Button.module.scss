@@ -1,0 +1,31 @@
+@use "../../styles/placeholders";
+
+.buttonStyling {
+  &.s-btn {
+    padding: 0.2rem 0.3rem;
+  }
+
+  &.m-btn {
+    padding: 0.5rem 0.7rem;
+  }
+
+  &.l-btn {
+    padding: 1rem;
+  }
+
+  &.border-none {
+    border: 0;
+  }
+
+  &.sharp-btn {
+    border-radius: 7px;
+  }
+
+  &.submit-btn {
+    @extend %submitBtn;
+  }
+
+  &.reset-btn {
+    @extend %resetBtn;
+  }
+}

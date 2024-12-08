@@ -8,7 +8,9 @@ export const PageRouter = () => {
       <Routes>
         <Route element={<MainLayout />}>
           {Paths.map((item) => {
-            return <Route path={item.url} element={<item.page />} />;
+            return (
+              <Route key={item.title} path={item.url} element={<item.page />} />
+            );
           })}
         </Route>
       </Routes>
